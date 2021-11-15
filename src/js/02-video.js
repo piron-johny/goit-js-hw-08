@@ -1,15 +1,25 @@
 import Player from '@vimeo/player';
 
-const options = {
-  id: 59777392,
-  width: 640,
-  loop: true
-};
-
-const player = new Vimeo.Player('vimeo-player', options);
-
-player.setVolume(0);
-
-player.on('play', function () {
-  console.log('played the video!');
+const player = new Player('vimeo-player', {
+  id: 19231868,
+  width: 640
 });
+
+// player.on('play', function () {
+//   console.log('played the video!');
+// });
+
+// const data = {
+//   duration: 61.857,
+//   percent: 0.502,
+//   seconds: 31.052,
+// }
+
+player.on('play', (data)=> {
+  console.log(data);
+
+} );
+
+
+
+
