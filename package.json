@@ -1,7 +1,7 @@
 {
   "name": "parcel-project-template",
   "version": "1.1.0",
-  "description": "",
+  "description": "## Скрытые файлы",
   "main": "index.js",
   "homepage": "https://piron-johny.github.io/goit-js-hw-08",
   "scripts": {
