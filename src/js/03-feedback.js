@@ -35,5 +35,3 @@ function onSubmitForm(e) {
   localStorage.removeItem("feedback-form-state")
 };
 
-console.log(inputEmail.value);
-console.log(inputPassword.value);
